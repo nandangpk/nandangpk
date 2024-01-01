@@ -1,38 +1,47 @@
-```json
-HTTP/1.1 200 OK
-Content-Type: application/json; charset=utf-8
+<div align="right">
 
-{
-  "about": {
-    "name": "Nandang Permana Kusuma",
-    "gender": "Male",
-    "tagline": "Not Your Average Web Developer"
-  },
-  "skills":{
-    "programming_language": [
-      {"type": "Ruby", "detail": ["Ruby on Rails"]},
-      {"type": "PHP", "detail": ["Laravel"]},
-      {"type": "Go", "detail": ["Gin Gonic"]},
-      {"type": "Javascript", "detail": ["ReactJS", "Ionic"]},
-      {"type": "Dart", "detail": ["Flutter"]},
-    ],
-    "technology_stack": [
-      {"type": "Frontend", "detail": ["ReactJS", "jQuery", "ChartJS", "DataTable"]},
-      {"type": "Backend", "detail": ["Ruby on Rails", "Gin Gonic", "Laravel"]},
-      {"type": "Mobile", "detail": ["Flutter", "Ionic with ReactJS"]},
-      {"type": "Database", "detail": ["MySQL"]},
-      {"type": "MVC", "detail": ["Ruby on Rails", "Laravel"]},
-      {"type": "CSS", "detail": ["Bootstrap", "Tailwind", "SCSS"]},
-      {"type": "Architecture", "detail": ["Monolithic", "Microservice"]},
-    ],
-    "others": [
-      {"type": "Bot", "details": ["Telegram", "Discord"]},
-      {"type": "Web Server", "details": ["Apache", "Nginx"]},
-      {"type": "REST API Docs", "details": ["Postman", "Swagger"]},
-      {"type": "Auto Deployment", "details": ["Capistrano"]},
-      {"type": "Port Forwarding", "details": ["Ngrok", "LocalTunnel"]},
-      {"type": "Operating Systems", "details": ["Windows", "Linux"]},
-    ]
+  [![Linkedin: nandangpk](https://img.shields.io/badge/Nandang_Permana_Kusuma-white?style=flat-square&logo=Linkedin&logoColor=blue)](https://www.linkedin.com/in/nandang-permana-kusuma-10519a248/)
+  [![Instagram: nandangpk](https://img.shields.io/badge/%40nandangpk-white?style=flat-square&logo=Instagram)](https://www.instagram.com/nandangpk)
+
+</div>
+
+
+```ruby
+  my = Developer.find_by(:username => "nandangpk")
+  p my.detail
+
+  =>
+  {
+    :about => {
+      :name => "Nandang Permana Kusuma",
+      :gender => "Male",
+      :tagline => "Not Your Average Software Engineer"
+    },
+    :skills => {
+      :programming_language => [
+        {"Ruby" => ["Ruby on Rails"]},
+        {"PHP" => ["Laravel"]},
+        {"Go" => ["Gin Gonic"]},
+        {"Javascript" => ["ReactJS", "Ionic"]},
+        {"Dart" => ["Flutter"]}
+      ],
+      :technology_stack => [
+        {"Frontend" => ["ReactJS", "jQuery"]},
+        {"Backend" => ["Ruby on Rails", "Gin Gonic", "Laravel"]},
+        {"Mobile" => ["Flutter", "Ionic with ReactJS"]},
+        {"Database" => ["MySQL", "PostgreSQL"]}
+      ],
+      :others => [
+        {"Bot" => ["Telegram", "Discord"]},
+        {"CSS" => ["Bootstrap", "Tailwind", "UIkit"]},
+        {"MVC" => ["Ruby on Rails", "Laravel"]},
+        {"Web Server" => ["Apache", "Nginx"]},
+        {"Architecture" => ["Monolithic", "Microservice"]},
+        {"REST API Docs" => ["Postman", "Swagger"]},
+        {"Package Manager" => ["Yarn", "NPM"]},
+        {"Port Forwarding" => ["Ngrok", "LocalTunnel"]},
+        {"Operating System" => ["Windows", "Linux"]}
+      ]
+    }
   }
-}
 ```
